@@ -1,0 +1,48 @@
+import { HeroBanner } from '../types';
+
+export const HERO_BANNERS: HeroBanner[] = [
+  {
+    id: 'banner-one-stop',
+    title: 'Your One Stop Solution for Stationery & Corporate Gifting',
+    subtitle: 'For All Your Supply Needs — You name it, We have it. Serving enterprises, offices, schools, and institutions across India with high-quality supplies and volume pricing.',
+    badge: 'ZEST ENTERPRISES 2026',
+    ctaText: 'Explore Corporate Gifting',
+    targetCategory: 'CORPORATE GIFTING',
+    targetSubcategory: 'Customized Pens',
+    image: 'https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=1600&q=85',
+    accentColor: '#4D6429',
+  },
+  {
+    id: 'banner-corporate-gifting',
+    title: 'Corporate Gifting: Thoughtful Gifts. Lasting Impressions.',
+    subtitle: 'Add your logo. Write your brand. Custom logo branding on premium metal pens, ceramic mugs, leather wallets, executive diaries, vacuum bottles, and new joiner welcome kits.',
+    badge: 'CUSTOM LOGO BRANDING',
+    ctaText: 'Browse Corporate Gifts',
+    targetCategory: 'CORPORATE GIFTING',
+    targetSubcategory: 'Employee Welcome Kits',
+    image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1600&q=85',
+    accentColor: '#243315',
+  },
+  {
+    id: 'banner-office-supplies',
+    title: 'Office Supplies: Everything Your Office Needs, All in One Place',
+    subtitle: 'From premium A4/A3 copier paper and heavy-duty lever arch filing binders to desktop staplers, permanent markers, and calculators. Streamlined B2B supply.',
+    badge: 'COMPLETE WORKSPACE ESSENTIALS',
+    ctaText: 'Discover Office Supplies',
+    targetCategory: 'OFFICE SUPPLIES',
+    targetSubcategory: 'A4 and A3 Copier Paper',
+    image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1600&q=85',
+    accentColor: '#243315',
+  },
+  {
+    id: 'banner-school-supplies',
+    title: 'School Supplies: Everything Students Need, All in One Place',
+    subtitle: 'Notebooks & long registers, durable tiffin boxes, sipper bottles, pencil pouches, exam clipboards, geometry compass sets, non-toxic modeling clay, and vibrant water colors.',
+    badge: 'STUDENT & CLASSROOM SUPPLIES',
+    ctaText: 'Explore School Supplies',
+    targetCategory: 'SCHOOL SUPPLIES',
+    targetSubcategory: 'Notebooks & Registers',
+    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1600&q=85',
+    accentColor: '#4D6429',
+  },
+];

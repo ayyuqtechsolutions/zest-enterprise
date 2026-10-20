@@ -1,0 +1,6 @@
+{
+  "name": "Zest Enterprises - Stationery & Corporate Gifting",
+  "description": "For All Your Supply Needs — You name it, We have it. Official catalog for Corporate Gifting, Office Supplies, School Supplies, and Stationery by Zest Enterprises.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
