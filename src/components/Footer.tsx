@@ -138,7 +138,7 @@ export const Footer: React.FC<FooterProps> = ({
               <li>
                 <button
                   type="button"
-                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottless')}
+                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottles')}
                   className="hover:text-white transition-colors"
                 >
                   All Bottles &amp; Tumblers
@@ -147,7 +147,7 @@ export const Footer: React.FC<FooterProps> = ({
               <li>
                 <button
                   type="button"
-                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottless')}
+                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottles')}
                   className="hover:text-white transition-colors"
                 >
                   Double Shipper Tumblers (900ml)
@@ -156,7 +156,7 @@ export const Footer: React.FC<FooterProps> = ({
               <li>
                 <button
                   type="button"
-                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottless')}
+                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottles')}
                   className="hover:text-white transition-colors"
                 >
                   Vacuum Sports Bottles (800ml &amp; 1000ml)
@@ -165,7 +165,7 @@ export const Footer: React.FC<FooterProps> = ({
               <li>
                 <button
                   type="button"
-                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottless')}
+                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottles')}
                   className="hover:text-white transition-colors"
                 >
                   RB Wooden Lid Bottles (500ml)
@@ -174,7 +174,7 @@ export const Footer: React.FC<FooterProps> = ({
               <li>
                 <button
                   type="button"
-                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottless')}
+                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottles')}
                   className="hover:text-white transition-colors"
                 >
                   Push Button Thermal Mugs (500ml)
@@ -183,7 +183,7 @@ export const Footer: React.FC<FooterProps> = ({
               <li>
                 <button
                   type="button"
-                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottless')}
+                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottles')}
                   className="hover:text-white transition-colors"
                 >
                   Mini Pocket Vacuum Flasks (300ml)
@@ -211,7 +211,7 @@ export const Footer: React.FC<FooterProps> = ({
               <li>
                 <button
                   type="button"
-                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottless')}
+                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'bottles')}
                   className="hover:text-white transition-colors flex items-center justify-between w-full"
                 >
                   <span>Corporate Bottles &amp; Flasks</span>

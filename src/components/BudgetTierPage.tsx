@@ -134,8 +134,8 @@ export const BudgetTierPage: React.FC<BudgetTierPageProps> = ({
     });
 
     list.sort((a, b) => {
-      if (sortBy === 'price-asc') return a.referencePrice - b.referencePrice;
-      if (sortBy === 'price-desc') return b.referencePrice - a.referencePrice;
+      if (sortBy === 'price-asc') return (a.referencePrice ?? 0) - (b.referencePrice ?? 0);
+      if (sortBy === 'price-desc') return (b.referencePrice ?? 0) - (a.referencePrice ?? 0);
       if (sortBy === 'rating') return (b.rating || 0) - (a.rating || 0);
       return a.title.localeCompare(b.title);
     });
@@ -313,9 +313,10 @@ export const BudgetTierPage: React.FC<BudgetTierPageProps> = ({
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mb-12">
           {displayProducts.map((product) => {
             const isWishlisted = wishlistIds.has(product.id);
-            const discountPct = product.mrp
-              ? Math.round(((product.mrp - product.referencePrice) / product.mrp) * 100)
-              : null;
+            const discountPct =
+              product.mrp && product.referencePrice
+                ? Math.round(((product.mrp - product.referencePrice) / product.mrp) * 100)
+                : null;
 
             return (
               <div
@@ -325,7 +326,7 @@ export const BudgetTierPage: React.FC<BudgetTierPageProps> = ({
                 {/* Image */}
                 <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
                   <img
-                    src={product.imageUrl}
+                    src={product.thumbnail || product.images?.[0]}
                     alt={product.title}
                     loading="lazy"
                     referrerPolicy="no-referrer"

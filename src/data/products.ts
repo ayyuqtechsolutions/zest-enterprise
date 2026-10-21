@@ -8,7 +8,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Drinkware Collection',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.9,
     reviewCount: 168,
     images: [
@@ -37,7 +37,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Individual Protective White Box',
       moq: '25 Units for Custom Logo Branding',
     },
-    tags: ['bottless', 'bottles', 'wooden lid bottle', 'water bottle', 'white bottle', 'corporate gifting', 'rb bottle'],
+    tags: ['bottles', 'bottles', 'wooden lid bottle', 'water bottle', 'white bottle', 'corporate gifting', 'rb bottle'],
   },
   {
     id: 'cg-bottle-wooden-blue-500ml',
@@ -46,7 +46,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Drinkware Collection',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.8,
     reviewCount: 142,
     images: [
@@ -74,7 +74,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Individual Gift Box',
       moq: '25 Units',
     },
-    tags: ['bottless', 'bottles', 'wooden lid bottle', 'blue bottle', 'corporate gifting', 'rb bottle'],
+    tags: ['bottles', 'bottles', 'wooden lid bottle', 'blue bottle', 'corporate gifting', 'rb bottle'],
   },
   {
     id: 'cg-bottle-wooden-black-500ml',
@@ -83,7 +83,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Drinkware Collection',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.9,
     reviewCount: 215,
     images: [
@@ -111,7 +111,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Premium Matte Black/Craft Gift Box',
       moq: '25 Units',
     },
-    tags: ['bottless', 'bottles', 'matte black bottle', 'wooden lid bottle', 'corporate gifting', 'rb bottle'],
+    tags: ['bottles', 'bottles', 'matte black bottle', 'wooden lid bottle', 'corporate gifting', 'rb bottle'],
   },
   {
     id: 'cg-tumbler-shipper-hendal-900ml',
@@ -120,7 +120,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Hydration Tumblers',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.9,
     reviewCount: 310,
     images: [
@@ -150,7 +150,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Color Gift Box Packaging',
       moq: '20 Units',
     },
-    tags: ['bottless', 'bottles', 'shipper tumbler', 'handle tumbler', '900ml tumbler', 'corporate gifting'],
+    tags: ['bottles', 'bottles', 'shipper tumbler', 'handle tumbler', '900ml tumbler', 'corporate gifting'],
   },
   {
     id: 'cg-sports-bottle-800ml',
@@ -159,7 +159,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Active Gear',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.8,
     reviewCount: 245,
     images: [
@@ -189,7 +189,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Individual Packaging Box',
       moq: '25 Units',
     },
-    tags: ['bottless', 'bottles', 'sports bottle', '800ml bottle', 'vacuum bottle', 'corporate gifting', 'gym bottle'],
+    tags: ['bottles', 'bottles', 'sports bottle', '800ml bottle', 'vacuum bottle', 'corporate gifting', 'gym bottle'],
   },
   {
     id: 'cg-sports-bottle-1000ml',
@@ -198,7 +198,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Active Gear',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.9,
     reviewCount: 290,
     images: [
@@ -228,7 +228,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Sturdy Individual Box',
       moq: '25 Units',
     },
-    tags: ['bottless', 'bottles', '1000ml bottle', '1 litre bottle', 'sports bottle', 'vacuum bottle', 'corporate gifting'],
+    tags: ['bottles', 'bottles', '1000ml bottle', '1 litre bottle', 'sports bottle', 'vacuum bottle', 'corporate gifting'],
   },
   {
     id: 'cg-tumbler-dubal-shipper-white-900ml',
@@ -237,7 +237,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Hydration Tumblers',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.8,
     reviewCount: 175,
     images: [
@@ -266,7 +266,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Color Gift Box',
       moq: '20 Units',
     },
-    tags: ['bottless', 'bottles', 'dubal shipper', 'tumbler', '3 way lid', 'white tumbler', 'corporate gifting'],
+    tags: ['bottles', 'bottles', 'dubal shipper', 'tumbler', '3 way lid', 'white tumbler', 'corporate gifting'],
   },
   {
     id: 'cg-tumbler-dubal-shipper-mix-900ml',
@@ -275,7 +275,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Hydration Tumblers',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.9,
     reviewCount: 380,
     images: [
@@ -304,7 +304,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Individual Retail Box',
       moq: '20 Units',
     },
-    tags: ['bottless', 'bottles', 'dubal shipper', 'tumbler', 'pastel tumbler', 'corporate gifting'],
+    tags: ['bottles', 'bottles', 'dubal shipper', 'tumbler', 'pastel tumbler', 'corporate gifting'],
   },
   {
     id: 'cg-mini-pocket-bottle-300ml',
@@ -313,7 +313,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Compact Series',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.8,
     reviewCount: 198,
     images: [
@@ -343,7 +343,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Individual Gift Box',
       moq: '50 Units',
     },
-    tags: ['bottless', 'bottles', 'mini bottle', '300ml bottle', 'pocket flask', 'compact bottle', 'corporate gifting'],
+    tags: ['bottles', 'bottles', 'mini bottle', '300ml bottle', 'pocket flask', 'compact bottle', 'corporate gifting'],
   },
   {
     id: 'cg-push-button-mug-black-500ml',
@@ -352,7 +352,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Executive Drinkware',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.9,
     reviewCount: 260,
     images: [
@@ -381,7 +381,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Individual Presentation Box',
       moq: '25 Units',
     },
-    tags: ['bottless', 'bottles', 'coffee mug', 'push button mug', 'travel mug', 'black mug', 'corporate gifting'],
+    tags: ['bottles', 'bottles', 'coffee mug', 'push button mug', 'travel mug', 'black mug', 'corporate gifting'],
   },
   {
     id: 'cg-push-button-mug-white-500ml',
@@ -390,7 +390,7 @@ export const PRODUCTS_DATA: Product[] = [
     brand: 'Zest Executive Drinkware',
     mainCategory: 'CORPORATE GIFTING',
     subCategoryGroup: 'BOTTLES',
-    subCategory: 'bottless',
+    subCategory: 'bottles',
     rating: 4.8,
     reviewCount: 220,
     images: [
@@ -419,7 +419,7 @@ export const PRODUCTS_DATA: Product[] = [
       packaging: 'Individual Presentation Box',
       moq: '25 Units',
     },
-    tags: ['bottless', 'bottles', 'coffee mug', 'push button mug', 'white mug', 'travel mug', 'corporate gifting'],
+    tags: ['bottles', 'bottles', 'coffee mug', 'push button mug', 'white mug', 'travel mug', 'corporate gifting'],
   },
   // ==========================================
   // CORPORATE GIFTING - KEYCHAINS (33 MODELS)

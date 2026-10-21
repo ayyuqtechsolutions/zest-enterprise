@@ -189,7 +189,7 @@ export default function App() {
         onSelectCategoryFilter={handleSelectCategoryFilter}
         onOpenInquiry={handleOpenGeneralInquiry}
         onSelectBudgetTier={(_tier) => {
-          handleSelectCategoryFilter('CORPORATE GIFTING', 'bottless');
+          handleSelectCategoryFilter('CORPORATE GIFTING', 'bottles');
           window.scrollTo({ top: 0, behavior: 'smooth' });
         }}
       />

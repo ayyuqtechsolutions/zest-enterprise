@@ -2,7 +2,6 @@ import React, { useState, useMemo } from 'react';
 import { Product } from '../types';
 import { CATEGORIES_DATA } from '../data/categories';
 import { 
-  Star, 
   Heart, 
   Info, 
   SlidersHorizontal, 
@@ -105,10 +104,8 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
       return true;
     });
 
-    // Sorting without price
-    if (sortBy === 'rating') {
-      list = [...list].sort((a, b) => b.rating - a.rating);
-    } else if (sortBy === 'name') {
+    // Sorting
+    if (sortBy === 'name') {
       list = [...list].sort((a, b) => a.title.localeCompare(b.title));
     }
 
@@ -195,8 +192,7 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
               className="bg-transparent font-medium text-slate-800 focus:outline-hidden cursor-pointer"
             >
               <option value="featured">Featured / Curated</option>
-              <option value="rating">Highest Rated</option>
-              <option value="name">Alphabetical</option>
+              <option value="name">Alphabetical (A - Z)</option>
             </select>
           </div>
         </div>
@@ -356,7 +352,7 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
                         ? 'bg-[#EEF4E5] text-[#4D6429] hover:bg-[#E2ECD5]'
                         : 'bg-white/90 text-slate-600 hover:text-[#4D6429] hover:bg-white'
                     }`}
-                    title={isWishlisted ? 'Remove from Saved' : 'Save for Review'}
+                    title={isWishlisted ? 'Remove from Saved' : 'Save to Shortlist'}
                   >
                     <Heart
                       className={`w-4 h-4 ${isWishlisted ? 'fill-[#4D6429]' : ''}`}
@@ -391,28 +387,6 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
                     >
                       {product.title}
                     </h3>
-
-                    {/* Rating & Reviews */}
-                    <div className="flex items-center gap-1 text-xs">
-                      <div className="flex text-amber-500">
-                        {Array.from({ length: 5 }).map((_, i) => (
-                          <Star
-                            key={i}
-                            className={`w-3 h-3 ${
-                              i < Math.floor(product.rating)
-                                ? 'fill-amber-400 text-amber-400'
-                                : 'text-slate-300'
-                            }`}
-                          />
-                        ))}
-                      </div>
-                      <span className="font-bold text-slate-800 text-[11px]">
-                        {product.rating.toFixed(1)}
-                      </span>
-                      <span className="text-slate-400 text-[11px]">
-                        ({product.reviewCount})
-                      </span>
-                    </div>
 
                     {/* Short Description */}
                     <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
@@ -493,7 +467,7 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
               type="button"
               onClick={() => {
                 onSelectCategory('CORPORATE GIFTING');
-                onSelectSubcategory('bottless');
+                onSelectSubcategory('bottles');
               }}
               className="w-full sm:w-auto px-5 py-2.5 bg-[#243315] hover:bg-[#1A260E] text-white font-bold text-xs rounded-xl transition-all cursor-pointer"
             >

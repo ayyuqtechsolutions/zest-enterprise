@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Product } from '../types';
 import { 
   X, 
-  Star, 
   Heart, 
   Mail, 
   Printer, 
@@ -140,28 +139,6 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
                 <h1 className="text-xl sm:text-2xl font-extrabold text-[#243315] leading-tight">
                   {product.title}
                 </h1>
-
-                {/* Rating & Reviews */}
-                <div className="flex items-center gap-2 text-xs">
-                  <div className="flex text-amber-500">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star
-                        key={i}
-                        className={`w-3.5 h-3.5 ${
-                          i < Math.floor(product.rating)
-                            ? 'fill-amber-400 text-amber-400'
-                            : 'text-slate-300'
-                        }`}
-                      />
-                    ))}
-                  </div>
-                  <span className="font-extrabold text-slate-800 text-sm">
-                    {product.rating.toFixed(1)}
-                  </span>
-                  <span className="text-slate-400">
-                    • Verified Quality Review ({product.reviewCount} reviews)
-                  </span>
-                </div>
 
                 {/* Corporate Inquiry Notice (NO PRICES) */}
                 <div className="p-3.5 rounded-xl bg-[#EEF4E5]/80 border border-[#A6C48A]/40 flex items-center justify-between gap-3">

@@ -43,17 +43,17 @@ export const CATEGORIES_DATA: MainCategory[] = [
     description: 'Customized solutions with company branding, logo printing & bulk packaging.',
     groups: [
       {
-        id: 'bottless-group',
+        id: 'bottles-group',
         title: 'BOTTLES',
         items: [
-          { id: 'bottless', name: 'bottless', slug: 'bottless', isPopular: true },
+          { id: 'bottles', name: 'Bottles', slug: 'bottles', isPopular: true },
         ],
       },
       {
         id: 'keychains-group',
         title: 'KEYCHAINS',
         items: [
-          { id: 'keychains', name: 'keychains', slug: 'keychains', isPopular: true },
+          { id: 'keychains', name: 'Keychains', slug: 'keychains', isPopular: true },
         ],
       },
     ],
@@ -63,17 +63,17 @@ export const CATEGORIES_DATA: MainCategory[] = [
 export const QUICK_CATEGORIES: QuickCategory[] = [
   {
     id: 'qc-keychains-1',
-    name: 'keychains',
+    name: 'Keychains',
     image: '/assets/aistudio/vc__cv_v_ca7d8b94.jpeg',
     category: 'CORPORATE GIFTING',
     subcategory: 'keychains',
   },
   {
     id: 'qc-bottles-1',
-    name: 'bottless',
+    name: 'Bottles',
     image: '/assets/aistudio/d_handle_double_shipper_tumbler_mix_add234a3.jpeg',
     category: 'CORPORATE GIFTING',
-    subcategory: 'bottless',
+    subcategory: 'bottles',
   },
   {
     id: 'qc-keychains-2',
@@ -87,7 +87,7 @@ export const QUICK_CATEGORIES: QuickCategory[] = [
     name: 'Sports Bottles',
     image: '/assets/aistudio/800ml_sporrts_bottles_ceb049fe.jpeg',
     category: 'CORPORATE GIFTING',
-    subcategory: 'bottless',
+    subcategory: 'bottles',
   },
   {
     id: 'qc-keychains-3',
@@ -101,13 +101,13 @@ export const QUICK_CATEGORIES: QuickCategory[] = [
     name: 'Wooden Lid Bottles',
     image: '/assets/aistudio/wooden_rubber_bottle_white_f7682c15.jpeg',
     category: 'CORPORATE GIFTING',
-    subcategory: 'bottless',
+    subcategory: 'bottles',
   },
   {
     id: 'qc-bottles-4',
     name: 'Coffee Mugs',
     image: '/assets/aistudio/push_button_coffee_mug_black_290e250b.jpeg',
     category: 'CORPORATE GIFTING',
-    subcategory: 'bottless',
+    subcategory: 'bottles',
   },
 ];
