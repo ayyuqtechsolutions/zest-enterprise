@@ -201,11 +201,21 @@ export const Footer: React.FC<FooterProps> = ({
               <li>
                 <button
                   type="button"
+                  onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'diary')}
+                  className="hover:text-white transition-colors flex items-center justify-between w-full"
+                >
+                  <span>Corporate Diaries &amp; Sets</span>
+                  <span className="text-[10px] text-[#A6C48A] bg-[#243315] px-1.5 py-0.5 rounded">27 New</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
                   onClick={() => onSelectCategoryFilter('CORPORATE GIFTING', 'keychains')}
                   className="hover:text-white transition-colors flex items-center justify-between w-full"
                 >
                   <span>Corporate Keychains</span>
-                  <span className="text-[10px] text-[#A6C48A] bg-[#243315] px-1.5 py-0.5 rounded">New</span>
+                  <span className="text-[10px] text-[#A6C48A] bg-[#243315] px-1.5 py-0.5 rounded">33 Models</span>
                 </button>
               </li>
               <li>

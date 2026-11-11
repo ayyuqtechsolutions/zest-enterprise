@@ -87,7 +87,8 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
           p.subCategory.toLowerCase() === s ||
           p.subCategoryGroup.toLowerCase() === s ||
           (s.includes('bottle') && p.subCategory.toLowerCase().includes('bottle')) ||
-          (s.includes('keychain') && p.subCategory.toLowerCase().includes('keychain'));
+          (s.includes('keychain') && p.subCategory.toLowerCase().includes('keychain')) ||
+          (s.includes('diar') && p.subCategory.toLowerCase().includes('diar'));
         if (!matchesSub) return false;
       }
       // Search query
@@ -457,9 +458,19 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
               type="button"
               onClick={() => {
                 onSelectCategory('CORPORATE GIFTING');
-                onSelectSubcategory('keychains');
+                onSelectSubcategory('diary');
               }}
               className="w-full sm:w-auto px-5 py-2.5 bg-[#4D6429] hover:bg-[#3E5220] text-white font-bold text-xs rounded-xl transition-all cursor-pointer"
+            >
+              View Diaries (27)
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                onSelectCategory('CORPORATE GIFTING');
+                onSelectSubcategory('keychains');
+              }}
+              className="w-full sm:w-auto px-5 py-2.5 bg-[#36481C] hover:bg-[#2F421A] text-white font-bold text-xs rounded-xl transition-all cursor-pointer"
             >
               View Keychains (33)
             </button>

@@ -100,7 +100,7 @@ export const MegaNavbar: React.FC<MegaNavbarProps> = ({
                             : category.groups.length === 2
                             ? 'grid-cols-2 max-w-md'
                             : category.groups.length === 3
-                            ? 'grid-cols-3'
+                            ? 'grid-cols-3 max-w-lg'
                             : category.groups.length === 4
                             ? 'grid-cols-4'
                             : 'grid-cols-5'
@@ -117,7 +117,9 @@ export const MegaNavbar: React.FC<MegaNavbarProps> = ({
                               {/* Items List */}
                               <ul className="space-y-1.5">
                                 {group.items.map((item) => {
-                                  const isCurrentSub = selectedSubcategory === item.name;
+                                  const isCurrentSub = 
+                                    selectedSubcategory?.toLowerCase() === item.name.toLowerCase() ||
+                                    selectedSubcategory?.toLowerCase() === item.id.toLowerCase();
                                   return (
                                     <li key={item.id}>
                                       <button

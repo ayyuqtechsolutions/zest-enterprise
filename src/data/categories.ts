@@ -56,6 +56,13 @@ export const CATEGORIES_DATA: MainCategory[] = [
           { id: 'keychains', name: 'Keychains', slug: 'keychains', isPopular: true },
         ],
       },
+      {
+        id: 'diary-group',
+        title: 'DIARY',
+        items: [
+          { id: 'diary', name: 'Diary', slug: 'diary', isPopular: true },
+        ],
+      },
     ],
   },
 ];
@@ -109,5 +116,19 @@ export const QUICK_CATEGORIES: QuickCategory[] = [
     image: '/assets/aistudio/push_button_coffee_mug_black_290e250b.jpeg',
     category: 'CORPORATE GIFTING',
     subcategory: 'bottles',
+  },
+  {
+    id: 'qc-diary-1',
+    name: 'Executive Diaries',
+    image: '/assets/aistudio/279e034b-fc9a-4899-94d8-a92f29cc9057_c416c3bf.jpg',
+    category: 'CORPORATE GIFTING',
+    subcategory: 'diary',
+  },
+  {
+    id: 'qc-diary-2',
+    name: 'Wooden Diary Sets',
+    image: '/assets/aistudio/e68a48a4-a6a8-4223-8655-213f5a52088f_49fbb483.jpg',
+    category: 'CORPORATE GIFTING',
+    subcategory: 'diary',
   },
 ];
